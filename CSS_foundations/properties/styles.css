@@ -1,0 +1,64 @@
+/* Color and background-color */
+
+/* 
+    The color property sets an element’s text color, while background-color sets,
+    well, the background color of an element. 
+    
+     A common one is a keyword, such as an actual color name like red or the 
+     transparent keyword. They also accept HEX, RGB, and HSL values.
+*/
+
+p {
+  /* hex example: */
+  color: #1100ff;
+}
+
+p {
+  /* rgb example: */
+  color: rgb(100, 0, 127);
+}
+
+p {
+  /* hsl example: */
+  color: hsl(15, 82%, 56%);
+}
+
+/* Typography basics and text-align  */
+
+/* 
+    font-family can be a single value or a comma-separated list of values 
+    that determine what font an element uses.
+
+    font-size will, as the property name suggests, set the size of the font. 
+    When giving a value to this property, the value should not contain any 
+    whitespace, e.g. font-size: 22px has no space between “22” and “px”.
+
+    text-align will align text horizontally within an element, and you can use 
+    the common keywords you may have come across in word processors as the value 
+    for this property.
+*/
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+/* 
+    By default, an <img> element’s height and width values will be the same as 
+    the actual image file’s height and width. If you wanted to adjust the size 
+    of the image without causing it to lose its proportions, you would set 
+    either the height or width property to a specific value and set the other 
+    property to auto.
+
+    For example, if an image’s original size was 500px height and 1000px width,
+    using the code CSS would result in a height of 250px.
+*/
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+
+
